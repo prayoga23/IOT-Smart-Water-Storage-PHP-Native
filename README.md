@@ -3,7 +3,7 @@
 <br><strong> © Created By Prayoga Nugroho Pangestu </strong>
 <br> Contoh Dashboard Aplikasi :
 
-![Screenshot 2022-07-17 223219](https://user-images.githubusercontent.com/34431995/183299646-01c5ea68-da3f-4835-a5b8-3a27c9cfdf4f.png)
+<img width="943" alt="image" src="https://user-images.githubusercontent.com/34431995/183300505-36b937b9-9895-45d6-ac37-854d9a88d9f5.png">
 <br>
 <br> Import db_water_level.sql. Lokasi file di folder Database lalu import ke localhost xampp
 <br> Buka Website http://127.0.0.1/smartwaternative/
