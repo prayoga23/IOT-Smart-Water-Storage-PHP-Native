@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Simulation</title>
+	<script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+
+	<script type="text/javascript" src="tank_animation_simulation.js"></script>
+	<script type="text/javascript" src='../basic_page/jquery.min.js'></script>
+
+
+    <script>
+
+    	function data_request_timer(delay){
+			window.setInterval(get_data, delay); //timer for initiating ajax request
+
+		}
+
+		function get_data(){
+			console.log("fetching data from server");
+
+			$.get("read_data.php?widget=info",
+			function(data, status){
+		    	document.getElementById("info").innerHTML = data;
+		  	});
+
+		}
+
+    </script>
+
+</head>
+<body onload="data_request_timer(1000)">
+
+<div align='center'>
+    <div style='margin-top:30px'>
+         <p id='info'></p>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
