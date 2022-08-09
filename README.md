@@ -10,8 +10,5 @@
 <br> Username : yoga
 <br> Password : yoga
 
-<br> Login Untuk User :
-<br> Username : bella
-<br> Password : bella
-<br>
-<br>Anda bisa membuat akun user di admin. Tidak harus yang saya kasih.
+<br> Untuk Source code arduino IoT ada di folder Water.ino
+<br>Anda bisa membuat akun user di admin.
